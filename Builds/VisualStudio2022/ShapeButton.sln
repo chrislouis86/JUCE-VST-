@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShapeButton - Standalone Plugin", "ShapeButton_StandalonePlugin.vcxproj", "{653323B5-3425-C455-CCAA-66A1B1312FA0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CD6D05C-EF82-B1E0-C257-EE6A358FA8C9} = {8CD6D05C-EF82-B1E0-C257-EE6A358FA8C9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShapeButton - VST3", "ShapeButton_VST3.vcxproj", "{326314D9-D775-D56D-2B02-1EDB1E731CA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CD6D05C-EF82-B1E0-C257-EE6A358FA8C9} = {8CD6D05C-EF82-B1E0-C257-EE6A358FA8C9}
+		{3C8019AB-A5D6-5014-1F48-A529AA9479C7} = {3C8019AB-A5D6-5014-1F48-A529AA9479C7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShapeButton - Shared Code", "ShapeButton_SharedCode.vcxproj", "{8CD6D05C-EF82-B1E0-C257-EE6A358FA8C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShapeButton - VST3 Manifest Helper", "ShapeButton_VST3ManifestHelper.vcxproj", "{3C8019AB-A5D6-5014-1F48-A529AA9479C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{326314D9-D775-D56D-2B02-1EDB1E731CA9}.Debug|x64.ActiveCfg = Debug|x64
+		{326314D9-D775-D56D-2B02-1EDB1E731CA9}.Debug|x64.Build.0 = Debug|x64
+		{326314D9-D775-D56D-2B02-1EDB1E731CA9}.Release|x64.ActiveCfg = Release|x64
+		{326314D9-D775-D56D-2B02-1EDB1E731CA9}.Release|x64.Build.0 = Release|x64
+		{653323B5-3425-C455-CCAA-66A1B1312FA0}.Debug|x64.ActiveCfg = Debug|x64
+		{653323B5-3425-C455-CCAA-66A1B1312FA0}.Debug|x64.Build.0 = Debug|x64
+		{653323B5-3425-C455-CCAA-66A1B1312FA0}.Release|x64.ActiveCfg = Release|x64
+		{653323B5-3425-C455-CCAA-66A1B1312FA0}.Release|x64.Build.0 = Release|x64
+		{8CD6D05C-EF82-B1E0-C257-EE6A358FA8C9}.Debug|x64.ActiveCfg = Debug|x64
+		{8CD6D05C-EF82-B1E0-C257-EE6A358FA8C9}.Debug|x64.Build.0 = Debug|x64
+		{8CD6D05C-EF82-B1E0-C257-EE6A358FA8C9}.Release|x64.ActiveCfg = Release|x64
+		{8CD6D05C-EF82-B1E0-C257-EE6A358FA8C9}.Release|x64.Build.0 = Release|x64
+		{3C8019AB-A5D6-5014-1F48-A529AA9479C7}.Debug|x64.ActiveCfg = Debug|x64
+		{3C8019AB-A5D6-5014-1F48-A529AA9479C7}.Debug|x64.Build.0 = Debug|x64
+		{3C8019AB-A5D6-5014-1F48-A529AA9479C7}.Release|x64.ActiveCfg = Release|x64
+		{3C8019AB-A5D6-5014-1F48-A529AA9479C7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
